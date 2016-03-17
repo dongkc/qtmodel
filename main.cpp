@@ -9,7 +9,7 @@
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 
-#include "SqlQueryModel.h"
+#include "sqlquerymodel.h"
 
 static bool create_connection()
 {
@@ -26,7 +26,7 @@ static bool create_connection()
       return false;
   }
 
-#if 0
+#if 1
   QSqlQuery query;
   query.exec("create table person (id int primary key, "
              "firstname varchar(20), lastname varchar(20))");

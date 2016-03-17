@@ -1,5 +1,5 @@
 ﻿
-#include "SqlQueryModel.h"
+#include "sqlquerymodel.h"
 #include <QSqlRecord>
 #include <QSqlField>
 
